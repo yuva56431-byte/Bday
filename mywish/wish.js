@@ -13,7 +13,7 @@
     window.location.port &&
     window.location.port !== "5000";
   const wishesApiUrl = isSeparateLocalFrontend
-    ? "http://localhost:5000/api/wishes"
+    ? "https://bdaybe.onrender.com/api/wishes"
     : "/api/wishes";
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   let isSubmitting = false;
